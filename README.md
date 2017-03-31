@@ -117,7 +117,7 @@ We have one additional `get` request that we're going to use to practice sending
 
 ```
   get '/friends' do
-    @friends = ["Charlie Chaplin", "Richard Pryor", "Eddie Murphy", "Louis CK", "Jerry Seinfeld"]
+    @friends = ["Charlie Chaplin", "Ellen DeGeneres", "Eddie Murphy", "Mindy Kaling", "Whoopie Goldberg"]
     erb :friends
   end
 ```
@@ -148,11 +148,13 @@ This will set up a loop through all items in `@friends` and then place each item
 
 ```
 <h2>Charlie Chaplin</h2>
-<h2>Richard Pryor</h2>
+<h2>Ellen DeGeneres</h2>
 <h2>Eddie Murphy</h2>
-<h2>Louis CK</h2>
-<h2>Jerry Seinfeld</h2>
+<h2>Mindy Kaling</h2>
+<h2>Whoopie Goldberg</h2>
 ```
 You can imagine how powerful iteration in erb is when you have an array of thousands of items that you have to display in your view! 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-view-and-controller-readme-walkthrough' title='Passing Data Between Views And Controllers in Sinatra'>Passing Data Between Views And Controllers in Sinatra</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-view-and-controller-readme-walkthrough'>Passing Data Between Views and Controllers</a> on Learn.co and start learning to code for free.</p>
